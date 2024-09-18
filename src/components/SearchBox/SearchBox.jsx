@@ -1,11 +1,12 @@
 
 
-const SearchBox = () => {
+const SearchBox = ({ value, onUserText }) => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <p>Find contacts by name</p>
+      <input type="text" value={value} onChange={(e) => onUserText(e.target.value)} />
+    </>
+  );
+};
 
-export default SearchBox
+export default SearchBox;
