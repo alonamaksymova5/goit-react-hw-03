@@ -1,31 +1,30 @@
+@import "modern-normalize/modern-normalize.css";
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  /* color-scheme: light dark; */
-  color: rgb(51, 45, 45);
-  background-color: white;
-
+  color: #052a4b;
+  min-height: 100svh;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  background: linear-gradient(rgb(231, 245, 245), rgb(206, 244, 244), rgb(73, 218, 211), rgb(113, 158, 159));
   margin: 0 auto;
-  font-family: sans-serif;
+  font-family: Poppins;
   line-height: 1.5;
-  font-size: 26px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  font-size: 16px;
 }
 
 h1,
@@ -36,10 +35,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
 }
 
 ul,
@@ -54,11 +49,10 @@ a {
   text-decoration: none;
 }
 
-button,
 input,
-textarea {
-  cursor: pointer;
+button {
   font: inherit;
+  cursor: pointer;
   outline: transparent;
 }
 

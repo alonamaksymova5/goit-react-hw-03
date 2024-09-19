@@ -1,0 +1,25 @@
+.item {
+    background-color: linear-gradient(rgb(176, 224, 230), rgb(173, 216, 230));
+}
+
+.btn {
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    min-width: 150px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: linear-gradient(rgb(144, 238, 144), rgb(60, 179, 113), rgb(0, 128, 0));
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-family: inherit;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
